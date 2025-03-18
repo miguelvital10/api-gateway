@@ -13,6 +13,6 @@ async function bootstrap() {
     .format('YYYY-MM-DD HH:mm:ss.SSS')
   }
 
-  await app.listen(process.env.PORT ?? 3000);
+  await app.listen(process.env.PORT ?? 8082);
 }
 bootstrap();
